@@ -1,0 +1,2 @@
+# React joker app 
+This React application showcases my skills in front-end web development and API integration. The app connects to the Joker API to fetch and display random jokes, providing a fun and interactive user experience.
