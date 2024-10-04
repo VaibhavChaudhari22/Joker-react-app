@@ -40,3 +40,177 @@
 .read-the-docs {
   color: #888;
 }
+
+ /* css for joker app */
+
+.joker-app {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+  text-align: center;
+  font-size: 2.5em;
+  color: #ff5722;
+  margin-bottom: 20px;
+}
+
+.category-selector {
+  margin-bottom: 20px;
+}
+
+.joke-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.joke-container h2 {
+  font-size: 1.5em;
+  color: #555;
+}
+
+.joke-container p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.new-joke-button,
+.favorite-button {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.new-joke-button:hover,
+.favorite-button:hover {
+  background-color: #e64a19;
+}
+
+.favorite-jokes {
+  margin-top: 20px;
+}
+
+.favorite-jokes ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.favorite-jokes li {
+  background: #e3f2fd;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+
+
+
+.joke-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.joke-container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.new-joke-button,
+.favorite-button {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.new-joke-button:hover,
+.favorite-button:hover {
+  background-color: #e64a19;
+  transform: scale(1.05);
+}
+.category-selector select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: border-color 0.3s;
+}
+
+.category-selector select:focus {
+  border-color: #ff5722;
+  outline: none;
+}
+@media (max-width: 600px) {
+  .joker-app {
+    padding: 15px;
+  }
+
+  .app-title {
+    font-size: 2em;
+  }
+
+  .new-joke-button,
+  .favorite-button {
+    font-size: 1em;
+    padding: 10px;
+  }
+}
+.favorite-jokes {
+  margin-top: 20px;
+}
+
+.favorite-jokes ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.favorite-jokes li {
+  background: #e3f2fd;
+  padding: 15px;
+  margin: 5px 0;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.favorite-jokes li:hover {
+  background: #bbdefb;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-title {
+  font-family: 'Dancing Script', cursive; /* Example font */
+}
+body {
+  background: url('https://img.freepik.com/premium-photo/cityscape-with-data-floating-it-image-binary-code-filled-city-night-ai-generated_585735-18352.jpg?w=996') no-repeat center center fixed;
+  background-size: cover;
+}
